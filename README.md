@@ -227,6 +227,7 @@ Si le sous-arbre gauche est vide , cela veut dire que le nœud à supprimer n’
  +  Exemple d’éxécution de la fonction supprimer:
  
  ![insert_apres](img6.jpeg)
+ 
  dans cet exemple  on veut supprimer le nœud contenant la clé 14 , On voit comment la méthode supprimer() fonctionne :
  on commence par comparer la clé à supprimer (14) avec la clé de la racine (8) , comme 14 est supérieur à 8 , nous nous déplaçons vers le sous-arbre droit.
  Ensuite, on compare 14 avec la clé de 10 , comme 14 est supérieur à 10 , on se déplace vers le sous-arbre droit de 10. Maintenant , nous comparons 14  avec la clé 14 , comme les clés sont égales , nous avons bien trouvé le nœud à supprimer.
